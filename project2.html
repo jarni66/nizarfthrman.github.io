@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Web Scraping</title>
+    <link rel="icon" href="images/icon.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/templatemo-style.css">
+	<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class='container'>
+    <h1>Data Analyst Job Search in glints.com</h1>
+        <p>Posted on Jan 20, 2022</p>
+        <p>
+            In this project i use python to scrape data from a website. Goals in this project is to get data about Data Analyst jobs and then visualize it to get usefull
+            information. For this project i use 3 main software, VSCode for web scraping, Jupyter Notebook to process data, and Taleau to visualize data.
+            In web scraping process i use selenium and beautiful soup library. Since target website is dynamic web, selenium have role as automation to load all jobs data and then
+            beautiful soup parse the html data to get specific data. Data from web scrapping then process in Jupyter Notebook to clean the data and delete irrelevant data.
+        </p>
+        <h3>
+            Here is my code in web scraping process.
+        </h3>
+        <script src="https://gist.github.com/jarni66/af66fdb4cdce8767e50108772d77b221.js"></script>
+        <p>
+            You can visit my <a href="https://github.com/jarni66">github pages</a> to see more.
+        </p>
+        
+        <h3>
+            Here is my data processing code in Jupyter Notebook.
+        </h3>
+        <script src="https://gist.github.com/jarni66/627d7f1f5bf4033fb19ceff2e32472f2.js"></script>
+        <h3>
+            Visualize Data
+        </h3>
+        <div class='tableauPlaceholder' id='viz1643073409493' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='web_scrape_vis&#47;DataAnalystJobsSearch' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1643073409493');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1627px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <h3>
+            Conclusions
+        </h3>
+        <p>
+            From this data i can conclude:
+        </p>
+        <ul>There is some job relate to keyword Data Analys (Data Engineer, Business Analyst, Data Scientist).</ul>
+        <ul>Most of the jobs need 1 year experience.</ul>
+        <ul>Jakarta is have most Data Analyst jobs vacancy.</ul>
+        <ul>Higher experience higher salary.</ul>
+    </div>
+    <div class="col-md-12 col-sm-12">
+        <p>Updated January 2022</p>
+    </div>
+                    
+    <script type='text/javascript'>                    
+    var divElement = document.getElementById('viz1642599431829');                    
+    var vizElement = divElement.getElementsByTagName('object')[0];                    
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
+    else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
+    else { vizElement.style.width='100%';vizElement.style.height='1627px';}                     
+    var scriptElement = document.createElement('script');                    
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+
+</body>
+</html>
