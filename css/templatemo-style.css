@@ -108,6 +108,10 @@ hr {
   padding-bottom: 40px;
   letter-spacing: 2px;
 }
+.proj-img {
+  height: 400px;
+  width: auto;
+}
 .tm-view-more-btn {
   background: #eb5424;
   color: #ffffff;
