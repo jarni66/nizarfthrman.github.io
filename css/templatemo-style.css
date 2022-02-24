@@ -129,7 +129,15 @@ hr {
   color: #eb5424;
 }
 /* END HOME */
-
+.img-proj-disp {
+  margin-top: 50px;
+  height: 300px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+}
 /* START WORK */
 .tm-padding-top-bottom-100 {
   padding-top: 100px;
@@ -336,7 +344,45 @@ hr {
   padding-right: 80px;
 }
 /* END RESUME */
-
+#list-head {
+  margin-left: 20px;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+#sub-list-head {
+  font-size: 16px;
+  font-weight: bold;
+}
+#cert-page-title {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.cert_list {
+  float: left;
+  background-color: rgba(274, 186, 106, 0.2);
+  width: 500px;
+  margin-left: 50px;
+}
+.cert_display {
+  
+  margin-left: 600px;
+  position: fixed;
+  
+}
+.futer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#imageHolder {
+  width: 600;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
 /* START ABOUT */
 .tm-about {
   background: url('../images/about-bg.jpg');
