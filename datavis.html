@@ -37,6 +37,9 @@
     <div class='container' style="margin-top: 80px;">
     <h1>Google Merchandise Store Traffic</h1>
         <p>Posted on Jan 20, 2022</p>
+        <h3><strong>Goals:</strong></h3>
+        <p><ul><strong>Visualize data from google Bigquery with Tableau</strong></ul></p>
+        <p><hr></p>
         <p>For this data visualization i take data from Bigquery public data. Specifically i pull data from public data Google Analytics sample data, this data tell about Google Merchandise Store Traffic
             on 2017/08/01. With this data i trying to visualize what happen to the traffic in Google Merchandise Store and get usefull insight from it.
             Because this data is just a sample data from Google Analytics so there is some columns with null value. For this project i use Jupyter Notebook to query data from Bigquery, then i save data to excel so i can connect the data to Tableau.
@@ -44,12 +47,12 @@
         <p>Here is process of inspecting data, i have query from Bigquery i done it on Jupyter Notebook. 
             In this process i SELECT all columns to get clear view of the data.
         </p>
-        <img src="images/project1/jp1.jpg" class="proj-img" alt="portfolio img">
+        <img src="images/project1/jp1.jpg" class="proj-img" alt="portfolio img" style="width: 70%; height: auto;">
         <p>
             Next, cleaning data with drop null columns. There is some columns with dictonary value and we'll get some usefull data from it.
         </p>
-        <img src="images/project1/jp2.jpg" class="proj-img" alt="portfolio img">
-        <img src="images/project1/jp3.jpg" class="proj-img" alt="portfolio img">
+        <img src="images/project1/jp2.jpg" class="proj-img" alt="portfolio img" style="width: 70%; height: auto;">
+        <img src="images/project1/jp3.jpg" class="proj-img" alt="portfolio img" style="width: 70%; height: auto;">
         <p>
             Let's check columns with array value one by one to get usefull value.
         </p>
@@ -68,9 +71,7 @@
                 <param name='language' value='en-US' /></object>
         </div>
     </div>
-    <div class="col-md-12 col-sm-12">
-        <p>Updated January 2022</p>
-    </div>
+    
                     
     <script type='text/javascript'>                    
     var divElement = document.getElementById('viz1642599431829');                    
@@ -82,6 +83,15 @@
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
     vizElement.parentNode.insertBefore(scriptElement, vizElement);                
     </script>
-
+    <section id="contact" class="tm-contact">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-12 col-sm-12">
+                    <p>Updated February 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
