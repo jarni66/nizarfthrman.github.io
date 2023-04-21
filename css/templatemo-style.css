@@ -188,6 +188,7 @@ hr {
   text-transform: uppercase;
 }
 .portfolio-item-title {
+  font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
   text-transform: uppercase;
@@ -315,7 +316,8 @@ hr {
 .fluid-img {
   width: 100%;
   display: block;
-  height: auto;
+  height: 100%;
+  object-fit: fill;
 }
 /* END PORTFOLIO */
 
